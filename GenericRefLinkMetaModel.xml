@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<metaModel  file_level="client" file_no="40">
+    
+   
+	<category name="GenericRefLink" rid="2">
+		<description>GenericReflink</description>
+		<attribute name="extensions" stringValue="*.*"/>
+		<inheritedCategory name="UniversalLanguage"/>
+		<inheritedCategory name="CsvLanguage"/>
+	</category>
+	
+	 #################################### Objects Defining #################################### -->
+	<type name="GenericRefLinktype" rid="3">
+		<description>Generic link</description>
+		<inheritedCategory name="CAST_PluginObject"/>
+      	<inheritedCategory name="UniversalLanguage" />
+	</type>
+	
+     
+ </metaModel>

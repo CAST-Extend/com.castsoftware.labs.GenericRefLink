@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<GenericUA>
+
+	<Search>
+      <RegexPatternBefore></RegexPatternBefore>
+      <RegexPattern>classpath.*</RegexPattern>
+	  <RegexPatternAfter></RegexPatternAfter>
+	  <RefFileExtension>.java</RefFileExtension>
+	  <RefFileCastCatergory>JV_FILE</RefFileCastCatergory>
+      <TargetObjectCategory>JV_METHOD</TargetObjectCategory>
+      <TargetObjectname>main</TargetObjectname>
+      <LinkType>callLink</LinkType>
+      <LinkOrginRef>false</LinkOrginRef>
+   </Search>
+   
+  <Search>
+      <RegexPatternBefore></RegexPatternBefore>
+      <RegexPattern>action[]*\={\"\"}+([a-zA-Z0-9]+"(.*?)</RegexPattern>
+	  <RegexPatternAfter></RegexPatternAfter>
+	  <RefFileExtension>.jsp</RefFileExtension>
+	  <RefFileCastCatergory>CAST_Web_All_Files</RefFileCastCatergory>
+      <TargetObjectCategory>JV_METHOD</TargetObjectCategory>
+      <TargetObjectname></TargetObjectname>
+      <LinkType>callLink</LinkType>
+      <LinkOrginRef>True</LinkOrginRef>
+  </Search>
+  
+  
+  
+ </GenericUA>
